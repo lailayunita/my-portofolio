@@ -98,16 +98,6 @@ const Navbar = () => {
                       cursor: "pointer",
                       borderRadius: "6px",
                     }}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      const targetElement = document.querySelector(item.href);
-                      if (targetElement) {
-                        window.scrollTo({
-                          top: targetElement.offsetTop,
-                          behavior: "smooth",
-                        });
-                      }
-                    }}
                   >
                     {item.label}
                   </Link>
