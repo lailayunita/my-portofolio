@@ -44,7 +44,7 @@ const Jumbotron = () => {
               >
                 Email Me
               </Button>
-              <Link href="../public/laila-yunita-cv.pdf" download>
+              <Link href="/ilustration.png" download>
                 <Button
                   leftIcon={<MdDownload />}
                   colorScheme="whiteAlpha"
