@@ -57,7 +57,7 @@ const Jumbotron = () => {
           </Flex>
           <Box>
             <Image
-              src="../public/ilustration.png"
+              src="/ilustration.png"
               alt="Profile picture"
               w={{ base: "150px", sm: "200px", md: "300px" }}
               h={{ base: "150px", sm: "200px", md: "300px" }}

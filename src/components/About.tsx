@@ -13,7 +13,7 @@ const About = () => {
         >
           <Box w={{ base: "100%", md: "30%" }} bg="#616161" borderRadius="10px">
             <Image
-              src="../public/photo.png"
+              src="/photo.png"
               alt="Profile picture"
               w="300px"
               h="300px"
